@@ -12,7 +12,7 @@ class CaretUpAction : CustomAction() {
         val editor = getEditor(e) ?: return
         moveCaret(
             editor,
-            ConfigRepository.getOffset() * -1,
+            ConfigRepository.getOffset().unaryMinus(),
             e.inputEvent.isShiftDown
         )
     }
