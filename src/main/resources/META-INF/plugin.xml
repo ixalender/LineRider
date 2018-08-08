@@ -1,0 +1,58 @@
+<idea-plugin>
+  <id>com.LineRider</id>
+  <name>LineRider</name>
+  <version>1.0</version>
+  <vendor email="anekrasov@fastmail.com" url="http://ixalender.com">Alexander Nekrasov</vendor>
+
+  <description><![CDATA[
+      Simple plugin for IntelliJ-like IDE for quick moving of caret in source code.
+    ]]></description>
+
+  <!--<change-notes><![CDATA[-->
+      <!--Add change notes here.<br>-->
+      <!--<em>most HTML tags may be used</em>-->
+    <!--]]>-->
+  <!--</change-notes>-->
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products
+  <depends>com.intellij.modules.lang</depends>
+  -->
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <application-components>
+    <component>
+      <implementation-class>com.LineRider.LineRider</implementation-class>
+    </component>
+  </application-components>
+
+  <actions>
+    <group id="LineRider.Menu"
+           text="LineRider"
+           description="LineRider menu"
+           class="com.LineRider.CustomDefaultActionGroup"
+           popup="true">
+      <add-to-group group-id="ToolsMenu" anchor="last"/>
+      <action id="LineRider.CaretUpAction"
+              class="com.LineRider.CaretUpAction"
+              text="Move caret up"
+              description="Move caret up">
+        <keyboard-shortcut keymap="$default" first-keystroke="alt UP" second-keystroke="alt shift UP"/>
+      </action>
+      <action id="LineRider.CaretDownAction"
+              class="com.LineRider.CaretDownAction"
+              text="Move caret down"
+              description="Move caret down">
+        <keyboard-shortcut keymap="$default" first-keystroke="alt DOWN" second-keystroke="alt shift DOWN"/>
+      </action>
+    </group>
+  </actions>
+
+</idea-plugin>
