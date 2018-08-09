@@ -8,9 +8,12 @@ import com.intellij.openapi.editor.Editor
 abstract class CustomAction: AnAction() {
 
     fun moveCaret(editor: Editor, lineOffset: Int, withSelection: Boolean) {
-        val col = editor.caretModel.currentCaret.logicalPosition.column
         editor.caretModel.allCarets.forEach {
-            it.moveCaretRelatively(col, lineOffset, withSelection, true)
+            it.moveCaretRelatively(
+                it.logicalPosition.column,
+                lineOffset,
+                withSelection, true
+            )
         }
     }
 
