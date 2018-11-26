@@ -44,13 +44,15 @@
               class="com.LineRider.CaretUpAction"
               text="Move caret up"
               description="Move caret up">
-        <keyboard-shortcut keymap="$default" first-keystroke="alt UP" second-keystroke="alt shift UP"/>
+        <keyboard-shortcut keymap="$default" first-keystroke="alt UP"/>
+        <keyboard-shortcut keymap="$default" first-keystroke="alt shift UP"/>
       </action>
       <action id="LineRider.CaretDownAction"
               class="com.LineRider.CaretDownAction"
               text="Move caret down"
               description="Move caret down">
-        <keyboard-shortcut keymap="$default" first-keystroke="alt DOWN" second-keystroke="alt shift DOWN"/>
+        <keyboard-shortcut keymap="$default" first-keystroke="alt DOWN"/>
+        <keyboard-shortcut keymap="$default" first-keystroke="alt shift DOWN"/>
       </action>
     </group>
   </actions>
