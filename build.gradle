@@ -1,0 +1,43 @@
+buildscript {
+    ext.kotlin_version = '1.2.51'
+
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
+plugins {
+    id "org.jetbrains.intellij" version "0.3.4"
+}
+
+patchPluginXml {
+    sinceBuild '181.*'
+}
+
+apply plugin: 'idea'
+apply plugin: 'org.jetbrains.intellij'
+apply plugin: 'kotlin'
+
+intellij {
+    pluginName 'LineRider'
+}
+
+group 'org.LineRider'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+sourceSets {
+    main.java.srcDirs += 'src/main/kotlin'
+    main.kotlin.srcDirs = ['src/main/kotlin']
+}
+
+dependencies {
+    compile "org.jetbrains.kotlin:kotlin-stdlib:1.2.51"
+    compile "org.jetbrains.kotlin:kotlin-reflect:1.2.51"
+}

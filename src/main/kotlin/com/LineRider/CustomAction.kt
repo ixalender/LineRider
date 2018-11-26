@@ -12,7 +12,8 @@ abstract class CustomAction: AnAction() {
             it.moveCaretRelatively(
                 it.logicalPosition.column,
                 lineOffset,
-                withSelection, true
+                withSelection,
+                true
             )
         }
     }
