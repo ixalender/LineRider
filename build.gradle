@@ -10,11 +10,12 @@ buildscript {
 }
 
 plugins {
-    id "org.jetbrains.intellij" version "0.3.4"
+    id "org.jetbrains.intellij" version "0.3.12"
 }
 
 patchPluginXml {
-    sinceBuild '181.*'
+    sinceBuild '173.*'
+    untilBuild '183.*'
 }
 
 apply plugin: 'idea'
