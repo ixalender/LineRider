@@ -1,4 +1,4 @@
-package com.LineRider
+package com.linerider
 
 import java.util.Properties
 

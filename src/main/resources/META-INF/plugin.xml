@@ -1,5 +1,5 @@
 <idea-plugin>
-  <id>com.LineRider</id>
+  <id>com.linerider</id>
   <name>LineRider</name>
   <version>1.0</version>
   <vendor email="anekrasov@fastmail.com" url="http://ixalender.com">Alexander Nekrasov</vendor>
@@ -16,7 +16,7 @@
 
   <application-components>
     <component>
-      <implementation-class>com.LineRider.LineRider</implementation-class>
+      <implementation-class>com.linerider.LineRider</implementation-class>
     </component>
   </application-components>
 
@@ -24,18 +24,18 @@
     <group id="LineRider.Menu"
            text="LineRider"
            description="LineRider menu"
-           class="com.LineRider.CustomDefaultActionGroup"
+           class="com.linerider.CustomDefaultActionGroup"
            popup="true">
       <add-to-group group-id="ToolsMenu" anchor="last"/>
       <action id="LineRider.CaretUpAction"
-              class="com.LineRider.CaretUpAction"
+              class="com.linerider.CaretUpAction"
               text="Move caret up"
               description="Move caret up">
         <keyboard-shortcut keymap="$default" first-keystroke="alt UP"/>
         <keyboard-shortcut keymap="$default" first-keystroke="alt shift UP"/>
       </action>
       <action id="LineRider.CaretDownAction"
-              class="com.LineRider.CaretDownAction"
+              class="com.linerider.CaretDownAction"
               text="Move caret down"
               description="Move caret down">
         <keyboard-shortcut keymap="$default" first-keystroke="alt DOWN"/>

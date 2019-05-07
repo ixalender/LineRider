@@ -1,4 +1,4 @@
-package com.LineRider
+package com.linerider
 
 import com.intellij.openapi.actionSystem.AnActionEvent
 
