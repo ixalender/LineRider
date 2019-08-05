@@ -8,7 +8,7 @@
       Simple plugin for IntelliJ platform for quick moving of caret in source code.
     ]]></description>
 
-  <idea-version since-build="173.0" until-build="183.*"/>
+  <idea-version since-build="173.0"/>
 
   <depends>com.intellij.modules.platform</depends>
 
@@ -29,14 +29,14 @@
       <add-to-group group-id="ToolsMenu" anchor="last"/>
       <action id="LineRider.CaretUpAction"
               class="com.linerider.CaretUpAction"
-              text="Move caret up"
+              text="Move Caret up"
               description="Move caret up">
         <keyboard-shortcut keymap="$default" first-keystroke="alt UP"/>
         <keyboard-shortcut keymap="$default" first-keystroke="alt shift UP"/>
       </action>
       <action id="LineRider.CaretDownAction"
               class="com.linerider.CaretDownAction"
-              text="Move caret down"
+              text="Move Caret down"
               description="Move caret down">
         <keyboard-shortcut keymap="$default" first-keystroke="alt DOWN"/>
         <keyboard-shortcut keymap="$default" first-keystroke="alt shift DOWN"/>
