@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/LineRider.iml" filepath="$PROJECT_DIR$/.idea/LineRider.iml" group="LineRider" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LineRider_main.iml" filepath="$PROJECT_DIR$/.idea/modules/LineRider_main.iml" group="LineRider" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LineRider_test.iml" filepath="$PROJECT_DIR$/.idea/modules/LineRider_test.iml" group="LineRider" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/LineRider.iml" filepath="$PROJECT_DIR$/.idea/LineRider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LineRider.main.iml" filepath="$PROJECT_DIR$/.idea/modules/LineRider.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LineRider.test.iml" filepath="$PROJECT_DIR$/.idea/modules/LineRider.test.iml" />
     </modules>
   </component>
 </project>

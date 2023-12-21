@@ -13,7 +13,7 @@ class CaretUpAction : CustomAction() {
         moveCaret(
             editor,
             ConfigRepository.getOffset().unaryMinus(),
-            e.inputEvent.isShiftDown
+            e.inputEvent!!.isShiftDown
         )
     }
 }

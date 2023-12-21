@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="LineRider:main" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="org.linerider" external.system.module.type="sourceSet" external.system.module.version="1.1" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet external-system-id="GRADLE" type="kotlin-language" name="Kotlin">
+      <configuration version="5" platform="JVM 1.8" allPlatforms="JVM [1.8]" useProjectSettings="false">
+        <compilerSettings />
+        <compilerArguments>
+          <flagArguments>
+            <flagArg name="allowNoSourceFiles" arg="true" />
+            <flagArg name="noReflect" arg="true" />
+            <flagArg name="noStdlib" arg="true" />
+          </flagArguments>
+          <stringArguments>
+            <stringArg name="destination" arg="$MODULE_DIR$/../../build/classes/kotlin/main" />
+            <stringArg name="jvmTarget" arg="1.8" />
+            <stringArg name="moduleName" arg="LineRider" />
+            <stringArg name="apiVersion" arg="1.7" />
+            <stringArg name="languageVersion" arg="1.7" />
+          </stringArguments>
+          <arrayArguments>
+            <arrayArg name="pluginClasspaths">
+              <args>
+                <arg>/usr/local/Cellar/gradle/7.4.1/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-jvm/1.7.22/496ed7206d5d7ddb1bc3fc5ecb357558a26e1954/kotlin-scripting-jvm-1.7.22.jar</arg>
+                <arg>/usr/local/Cellar/gradle/7.4.1/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-common/1.7.22/98ac39f8f50d398e9e8df8a1d30fc854f83f3629/kotlin-scripting-common-1.7.22.jar</arg>
+                <arg>/usr/local/Cellar/gradle/7.4.1/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.7.22/9fb43bccb6cf8cfaaf3776c75f5df4f052f09b72/kotlin-stdlib-1.7.22.jar</arg>
+                <arg>/usr/local/Cellar/gradle/7.4.1/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.7.22/5dd2c9dcf64c94b46cf4bdb6fa4035b9bb726e2e/kotlin-stdlib-common-1.7.22.jar</arg>
+                <arg>/usr/local/Cellar/gradle/7.4.1/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar</arg>
+                <arg>/usr/local/Cellar/gradle/7.4.1/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.7.22/703a4d56168f3517532bc04481e3c8b751f685cb/kotlin-script-runtime-1.7.22.jar</arg>
+              </args>
+            </arrayArg>
+            <arrayArg name="pluginOptions" />
+          </arrayArguments>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../out/production/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/kotlin" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/resources" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jetbrains:annotations:24.0.1" level="project" />
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library name="Gradle: com.jetbrains:ideaIC:2023.1">
+        <ANNOTATIONS>
+          <root url="jar://$MAVEN_REPOSITORY$/com/jetbrains/intellij/idea/ideaIU/2023.3.2/ideaIU-2023.3.2-annotations.zip!/" />
+        </ANNOTATIONS>
+        <CLASSES>
+          <root url="jar:///usr/local/Cellar/gradle/7.4.1/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2023.1/79ab2d2970b44e4c36be667e173da87c982a9814/ideaIC-2023.1/lib/3rd-party-rt.jar!/" />
+          <root url="jar:///usr/local/Cellar/gradle/7.4.1/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2023.1/79ab2d2970b44e4c36be667e173da87c982a9814/ideaIC-2023.1/lib/ant/lib/ant.jar!/" />
+          <root url="jar:///usr/local/Cellar/gradle/7.4.1/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2023.1/79ab2d2970b44e4c36be667e173da87c982a9814/ideaIC-2023.1/lib/app.jar!/" />
+          <root url="jar:///usr/local/Cellar/gradle/7.4.1/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2023.1/79ab2d2970b44e4c36be667e173da87c982a9814/ideaIC-2023.1/lib/byte-buddy-agent.jar!/" />
+          <root url="jar:///usr/local/Cellar/gradle/7.4.1/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2023.1/79ab2d2970b44e4c36be667e173da87c982a9814/ideaIC-2023.1/lib/error-prone-annotations.jar!/" />
+          <root url="jar:///usr/local/Cellar/gradle/7.4.1/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2023.1/79ab2d2970b44e4c36be667e173da87c982a9814/ideaIC-2023.1/lib/external-system-rt.jar!/" />
+          <root url="jar:///usr/local/Cellar/gradle/7.4.1/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2023.1/79ab2d2970b44e4c36be667e173da87c982a9814/ideaIC-2023.1/lib/externalProcess-rt.jar!/" />
+          <root url="jar:///usr/local/Cellar/gradle/7.4.1/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2023.1/79ab2d2970b44e4c36be667e173da87c982a9814/ideaIC-2023.1/lib/forms_rt.jar!/" />
+          <root url="jar:///usr/local/Cellar/gradle/7.4.1/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2023.1/79ab2d2970b44e4c36be667e173da87c982a9814/ideaIC-2023.1/lib/groovy.jar!/" />
+          <root url="jar:///usr/local/Cellar/gradle/7.4.1/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2023.1/79ab2d2970b44e4c36be667e173da87c982a9814/ideaIC-2023.1/lib/idea_rt.jar!/" />
+          <root url="jar:///usr/local/Cellar/gradle/7.4.1/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2023.1/79ab2d2970b44e4c36be667e173da87c982a9814/ideaIC-2023.1/lib/intellij-coverage-agent-1.0.706.jar!/" />
+          <root url="jar:///usr/local/Cellar/gradle/7.4.1/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2023.1/79ab2d2970b44e4c36be667e173da87c982a9814/ideaIC-2023.1/lib/intellij-test-discovery.jar!/" />
+          <root url="jar:///usr/local/Cellar/gradle/7.4.1/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2023.1/79ab2d2970b44e4c36be667e173da87c982a9814/ideaIC-2023.1/lib/jps-model.jar!/" />
+          <root url="jar:///usr/local/Cellar/gradle/7.4.1/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2023.1/79ab2d2970b44e4c36be667e173da87c982a9814/ideaIC-2023.1/lib/jsch-agent.jar!/" />
+          <root url="jar:///usr/local/Cellar/gradle/7.4.1/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2023.1/79ab2d2970b44e4c36be667e173da87c982a9814/ideaIC-2023.1/lib/junit4.jar!/" />
+          <root url="jar:///usr/local/Cellar/gradle/7.4.1/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2023.1/79ab2d2970b44e4c36be667e173da87c982a9814/ideaIC-2023.1/lib/protobuf.jar!/" />
+          <root url="jar:///usr/local/Cellar/gradle/7.4.1/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2023.1/79ab2d2970b44e4c36be667e173da87c982a9814/ideaIC-2023.1/lib/rd.jar!/" />
+          <root url="jar:///usr/local/Cellar/gradle/7.4.1/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2023.1/79ab2d2970b44e4c36be667e173da87c982a9814/ideaIC-2023.1/lib/stats.jar!/" />
+          <root url="jar:///usr/local/Cellar/gradle/7.4.1/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2023.1/79ab2d2970b44e4c36be667e173da87c982a9814/ideaIC-2023.1/lib/testFramework.jar!/" />
+          <root url="jar:///usr/local/Cellar/gradle/7.4.1/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2023.1/79ab2d2970b44e4c36be667e173da87c982a9814/ideaIC-2023.1/lib/util.jar!/" />
+          <root url="jar:///usr/local/Cellar/gradle/7.4.1/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2023.1/79ab2d2970b44e4c36be667e173da87c982a9814/ideaIC-2023.1/lib/util-8.jar!/" />
+          <root url="jar:///usr/local/Cellar/gradle/7.4.1/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2023.1/79ab2d2970b44e4c36be667e173da87c982a9814/ideaIC-2023.1/lib/util_rt.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar:///usr/local/Cellar/gradle/7.4.1/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2023.1/a7c308f4ec674747fd4a140cb882450908c97acb/ideaIC-2023.1-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.7.22" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.7.22" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.7.22" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
+  </component>
+</module>
